@@ -1,0 +1,22 @@
+.card-container {
+  display: grid;
+  background-color: black;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 50px;
+}
+
+
+.card {
+  background-color: aquamarine;
+  display: grid;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  justify-self: center;
+
+} 
+
+.card > a {
+  text-decoration: none !important;
+  
+}
